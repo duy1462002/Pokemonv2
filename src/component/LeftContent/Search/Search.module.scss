@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    margin: 30px 10px;
+    border-radius: 20px;
+    box-shadow: #EDEDED 0 10px 10px;
+    padding: 10px 15px;
+    background-color: white;
+    width: 100%;
+}
+
+.search-input {
+    height: 40px;
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+}
+
+.search-btn {
+    border: none;
+    background-color: #FF5350;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: #ff535088 5px 5px 15px;
+    color: white;
+    font-size: 18px;
+    padding: 4px 8px;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
